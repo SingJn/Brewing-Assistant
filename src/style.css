@@ -1,0 +1,51 @@
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  background-color: black;
+  margin: 0 1rem;
+}
+
+p {
+  color: white;
+  font-weight: 600;
+}
+
+button {
+  background-color: rgb(10, 132, 255);
+  border-radius: 5px;
+  border: none;
+  padding: 0px 20px;
+}
+
+button > p {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+textarea {
+  font-size: 2rem;
+  text-align: right;
+}
+
+.header-area {
+  border-bottom: 1px solid gray;
+}
+
+.main-title {
+  font-size: 2rem;
+}
+
+.main-subtle {
+  margin-top: -1rem;
+}
+
+.input-area {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 2rem;
+}
+
+.input-area > p {
+  margin: 0;
+  padding-bottom: 5px;
+}
+
